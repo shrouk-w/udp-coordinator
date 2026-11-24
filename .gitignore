@@ -1,0 +1,44 @@
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.jks
+*.keystore
+secrets.*
+credentials.*
+appsettings.Development.json
+appsettings.Local.json
+# IDE and build output
+.idea/
+.vscode/
+.vs/
+*.iml
+.classpath
+.project
+__pycache__/
+*.pyc
+.venv/
+venv/
+.conda*/
+.ipynb_checkpoints/
+.pytest_cache/
+node_modules/
+bin/
+obj/
+out/
+classes/
+*.class
+*.log
+# Generated data and models
+*.pkl
+*.joblib
+*.keras
+*.h5
+*.db
+*.sqlite*
+wandb/
+mlruns/
